@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b0a4334ce81b648a4cd0f837c902c9, type: 3}
+  m_Name: Arena
+  m_EditorClassIdentifier:
+  _displayName: Arena
+  _previewImage: {fileID: 21300000, guid: d877db9c985fe2d418276397dd316bfe, type: 2}
+  _fullScreenImage: {fileID: 2800000, guid: 86fb91b11aa62034488cf7ff3844e2cd, type: 3}
+  _schema:
+    _texture: {fileID: 2800000, guid: 6f1e2e9723460fd46ae32bbbba23e65e, type: 3}
+    _cameraPosition: {x: 0, y: 0, z: 0}
+    _cameraSize: 39
+  _sceneName: Arena2
+  _gameModes:
+    value:
+    - ArmsRace
+    - CaptureTheFlag
+    - DeathMatch
+    - Rampage
+    - SniperDuel
+  _ctArms: FBI
+  _ctCharacters:
+    character: FBI
+    skins:
+    - FBI
+  _trArms: Smugler
+  _trCharacters:
+    character: Smuggler
+    skins:
+    - SmugglerA
+    - SmugglerB

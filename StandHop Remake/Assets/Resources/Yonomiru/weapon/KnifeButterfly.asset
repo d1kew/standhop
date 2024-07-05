@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177f602bec63aaf47a53e932dd5f6cce, type: 3}
+  m_Name: KnifeButterfly
+  m_EditorClassIdentifier: 
+  id: 75
+  cost: 0
+  name: KnifeButterfly
+  CoolDownBeforeInspectAndShoot: 0.1
+  model: {fileID: 1367295316820562, guid: 178ad451dd5b3424b915e385141ef403, type: 3}
+  icon: {fileID: 21300000, guid: 2ac4ff49a5aa89645a55c3a73481a2d3, type: 2}
+  line: {fileID: 21300000, guid: e9c9bd35741a8f9479aebec08f883b77, type: 2}
+  knife: 1
+  pistol: 0
+  pos: {x: -0.059, y: -1.473, z: 0.22}
+  rot: {x: 1.419, y: 33.369, z: -1.294}
+  FpsCamFOV: 45
+  HeadDamage: 189
+  ChestDamage: 110
+  StomachDamage: 110
+  LegsDamage: 110
+  Rate: 1.3
+  Range: 2
+  FpsCamFOVClassic: 36
+  magazine1AnimationName: path_561775080
+  magazine2AnimationName: path_3019848827
+  magazine3AnimationName: path_720793025
+  gunlock1AnimationName: 
+  gunlock2AnimationName: 
+  sightAnimationName: 
+  collimatorSightAnimationName: 
+  sightLenseAnimationName: 
+  sightReticleAnimationName: 
+  cartridge1AnimationName: 
+  cartridge2AnimationName: 

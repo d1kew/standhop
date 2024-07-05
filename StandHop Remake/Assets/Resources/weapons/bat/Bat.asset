@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8cfc6618d62b14eba421a25aed1ecc, type: 3}
+  m_Name: Bat
+  m_EditorClassIdentifier:
+  _id: 74
+  _displayName: Bat
+  _cost: 0
+  _movementRate: 300
+  _sprites:
+    _icon: {fileID: 21300000, guid: 201ebb88451dc2e43bbe5b97cea0233d, type: 2}
+    _line: {fileID: 0}
+    _glow: {fileID: 0}
+    _preview: {fileID: 21300000, guid: 21d1d8ec396352b45af9bf53e7ca633a, type: 2}
+  _fixScale: 1
+  _dropBoxCollider: 0
+  _throwParameters:
+    _throwRotation: {x: 0, y: 0, z: 0}
+    _throwOffset: {x: 0, y: 0, z: 0}
+    _throwVelocity: {x: 0, y: 0, z: 0}
+    _throwAngularVelocity: {x: 0, y: 0, z: 0}
+    _dropVelocity: {x: 0, y: 0, z: 0}
+    _dropAngularVelocity: {x: 0, y: 0, z: 0}
+  _inspectable: 1
+  _inspectableBonus: 0
+  _hitDelayParameters:
+    _minHitAffect: 0.5
+    _maxHitAffect: 0.8
+    _hitDuration: 1.2
+    _hitAffectDuration: 0.5
+  _customAnimationName:
+  _customAnimationWeaponId: 0
+  _hitInterval: 0.8
+  _takeDuration: 0.5
+  _hitImpulse: 350
+  _hitRadius: 1.5
+  _additiveHitVector3: {x: 0, y: 0.4, z: 0}
+  _armorPenetration: 100
+  _damage:
+    _headDamage: 200
+    _chestAndArmsDamage: 200
+    _stomachDamage: 200
+    _legsDamage: 200
+    _distanceDamageMult:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  _backDamage: 200
+  _hitParameters:
+    TriggerRayPoints:
+    - {x: 0, y: 0, z: 2}
+    - {x: 0.3, y: 0, z: 2}
+    - {x: -0.3, y: 0, z: 2}
+    - {x: 0.5, y: 0, z: 2}
+    - {x: -0.5, y: 0, z: 2}
+    - {x: 0, y: 0.2, z: 2}
+    - {x: 0, y: -0.2, z: 2}
+    HitAreaHeight: 0.2
+    HitAreaWidth: 0.5
+    HeightMultCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.0049659
+        inSlope: -0.05090912
+        outSlope: -0.05090912
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.0107584
+        inSlope: -2.6379223
+        outSlope: -2.6379223
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    WidthMultCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9963038
+        inSlope: 0.0010442066
+        outSlope: 0.0010442066
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.0036885273
+        inSlope: -0.9926153
+        outSlope: -0.9926153
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    RayGrid:
+    - {x: 0, y: 0}
+    - {x: -0.07142857, y: 0}
+    - {x: 0.0714286, y: 0}
+    - {x: 0.14285713, y: 0}
+    - {x: -0.14285713, y: 0}
+    - {x: 0, y: -0.16666666}
+    - {x: 0, y: 0.16666669}
+    - {x: -0.07142857, y: -0.16666666}
+    - {x: 0.0714286, y: -0.16666666}
+    - {x: 0.0714286, y: 0.16666669}
+    - {x: -0.07142857, y: 0.16666669}
+    - {x: -0.2142857, y: 0}
+    - {x: 0.21428573, y: 0}
+    - {x: 0.14285713, y: -0.16666666}
+    - {x: -0.14285713, y: -0.16666666}
+    - {x: -0.14285713, y: 0.16666669}
+    - {x: 0.14285713, y: 0.16666669}
+    - {x: -0.2142857, y: 0.16666669}
+    - {x: 0.21428573, y: -0.16666666}
+    - {x: -0.2142857, y: -0.16666666}
+    - {x: 0.21428573, y: 0.16666669}
+    - {x: -0.28571427, y: 0}
+    - {x: 0.28571427, y: 0}
+    - {x: 0, y: 0.3333333}
+    - {x: 0, y: -0.3333333}
+    - {x: -0.07142857, y: 0.3333333}
+    - {x: -0.07142857, y: -0.3333333}
+    - {x: 0.0714286, y: -0.3333333}
+    - {x: 0.0714286, y: 0.3333333}
+    - {x: 0.35714287, y: 0}
+    - {x: -0.35714287, y: 0}
+    - {x: 0.4285714, y: 0}
+    - {x: -0.42857143, y: 0}
+    - {x: 0, y: -0.5}
+    - {x: 0, y: 0.5}
+    GridRelativeHeight: 0.4
+    GridRelativeWidth: 1.5
+    GridHeightLineCount: 7
+    GridWidthLineCount: 15
+    GridShapeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5703315
+        inSlope: -0.009577948
+        outSlope: -0.009577948
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.22177605
+        value: 0.2980933
+        inSlope: -1.5318952
+        outSlope: -1.5318952
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.49864054
+        value: -0.0019378662
+        inSlope: -0.030607617
+        outSlope: -0.030607617
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0

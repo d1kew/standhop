@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b0a4334ce81b648a4cd0f837c902c9, type: 3}
+  m_Name: Province
+  m_EditorClassIdentifier:
+  _displayName: Province
+  _previewImage: {fileID: 21300000, guid: 9689bd69df391b94dbd2d5458e8fc0d8, type: 2}
+  _fullScreenImage: {fileID: 2800000, guid: 270b1d67451315441ac58cddbed4eea0, type: 3}
+  _schema:
+    _texture: {fileID: 2800000, guid: 44c43de294b867b42901d95bab183429, type: 3}
+    _cameraPosition: {x: 4.6, y: 0, z: -3.1}
+    _cameraSize: 50
+  _sceneName: Province
+  _gameModes:
+    value:
+    - Defuse
+  _ctArms: GIGN
+  _ctCharacters:
+    character: GIGN
+    skins:
+    - GIGN
+  _trArms: Smugler
+  _trCharacters:
+    character: Smuggler
+    skins:
+    - SmugglerA
+    - SmugglerB

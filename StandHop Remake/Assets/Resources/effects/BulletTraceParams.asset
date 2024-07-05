@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6317602a72ceaa8419e7c11d0383df5f, type: 3}
+  m_Name: BulletTraceParams
+  m_EditorClassIdentifier:
+  _prefab: {fileID: 1521115166385055, guid: 59b18cd9f41536148810e4507a42b33a, type: 2}
+  _effectDetails:
+    _highDetailCount: 9
+    _mediumDetailCount: 6
+    _lowDetailCount: 4
+    _veryLowDetailCount: 2
+  _tracerParamsList:
+  - TraceType: 0
+    ScaleXYMult: 1
+    ScaleZMult: 1
+    SpeedMult: 1
+    OffsetMult: 1.1
+  - TraceType: 1
+    ScaleXYMult: 1
+    ScaleZMult: 1
+    SpeedMult: 1
+    OffsetMult: 1
+  - TraceType: 2
+    ScaleXYMult: 1
+    ScaleZMult: 1
+    SpeedMult: 1
+    OffsetMult: 1
+  - TraceType: 3
+    ScaleXYMult: 1
+    ScaleZMult: 1
+    SpeedMult: 1
+    OffsetMult: 1
+  - TraceType: 4
+    ScaleXYMult: 1
+    ScaleZMult: 1
+    SpeedMult: 1
+    OffsetMult: 1
+  - TraceType: 5
+    ScaleXYMult: 1
+    ScaleZMult: 1
+    SpeedMult: 1
+    OffsetMult: 1
+  _soundParameters:
+    _triggerRadius: 2
+    _triggerHeight: 1
+    _eventInstanceCount: 5
+    _soundEvent: event:/Weapon/Bullet/bullet_flyby
+  ScaleXY: 0.3
+  ScaleZ: 8.87799
+  Speed: 500
+  Offset: 4
+  TracingScaleXY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.50930864
+      inSlope: 1.8769429
+      outSlope: 1.8769429
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 2.3862514
+      inSlope: 1.8769429
+      outSlope: 1.8769429
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TracingScaleZ:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1.0074232
+      inSlope: 10.875397
+      outSlope: 10.875397
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.23923
+      value: 14.484542
+      inSlope: 10.495377
+      outSlope: 10.495377
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 3.4814491
+      value: 19.96588
+      inSlope: 0.597602
+      outSlope: 0.597602
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ScaleXYTps: 0.2
+  ScaleZTps: 7
+  SpeedTps: 900
+  OffsetTps: 6
+  TracingScaleXYTps:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1.003484
+      inSlope: 0.0010000467
+      outSlope: 0.0010000467
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1.004484
+      inSlope: 0.0010000467
+      outSlope: 0.0010000467
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TracingScaleZTps:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1.0164052
+      inSlope: 7.814412
+      outSlope: 7.814412
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.93314236
+      value: 8.308364
+      inSlope: 4.2844305
+      outSlope: 4.2844305
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 3.655755
+      value: 10.811802
+      inSlope: 0.33822632
+      outSlope: 0.33822632
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  collimatorXYMult: 0.5
+  collimatorZMult: 1
+  collimatorSpeedMult: 1.5

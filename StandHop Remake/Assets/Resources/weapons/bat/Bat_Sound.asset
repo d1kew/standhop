@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae50d9ce16705147a94cb50186633a4, type: 3}
+  m_Name: Bat_Sound
+  m_EditorClassIdentifier:
+  _eventSounds:
+  - _eventType: 61
+    _fpsSoundEvent: event:/Ingame Events/Anniversary/character bat  swing 1
+    _tpsSoundEvent: event:/Ingame Events/Anniversary/other bat  swing 1
+  - _eventType: 62
+    _fpsSoundEvent: event:/Ingame Events/Anniversary/character bat swing 2
+    _tpsSoundEvent: event:/Ingame Events/Anniversary/other bat swing 2
+  - _eventType: 60
+    _fpsSoundEvent: event:/Ingame Events/Anniversary/character bat deploy
+    _tpsSoundEvent: event:/Ingame Events/Anniversary/other bat deploy
+  _fpsDeploySoundEvent:
+  _tpsDeploySoundEvent:
+  _hitSoundsEnabled: 1
+  _fpsHitSound:
+    _bodyEvent: event:/Ingame Events/Anniversary/character bat kill
+    _headshotEvent: event:/Ingame Events/Anniversary/character bat kill headshot
+  _tpsHitSound:
+    _bodyEvent: event:/Ingame Events/Anniversary/other bat kill
+    _headshotEvent: event:/Ingame Events/Anniversary/other bat kill headshot
+  _tpsHitSoundDistance: 30
+  _impactSound: event:/Ingame Events/Anniversary/character bat impact
+  _impactSoundDistance: 30

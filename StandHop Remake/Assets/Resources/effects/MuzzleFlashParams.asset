@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1899ad64ef507d943bfbe2d2b2e9aa02, type: 3}
+  m_Name: MuzzleFlashParams
+  m_EditorClassIdentifier:
+  _effectDetails:
+    _highDetailCount: 10
+    _mediumDetailCount: 7
+    _lowDetailCount: 4
+    _veryLowDetailCount: 1
+  _params:
+  - _type: 0
+    _particles: {fileID: 198726140732013752, guid: 0f8f1bcc38246a3469bb06646034f1a6, type: 2}
+  - _type: 3
+    _particles: {fileID: 198728874447822231, guid: 357b68c397c9d254abb53bdf1b6fda34, type: 2}
+  _lightParams:
+    _lightColor: {r: 1, g: 0.6, b: 0, a: 0}
+    _lightIntensity: 5
+    _lightRange: 1
+    _offset: {x: -0.05, y: 0, z: 0}

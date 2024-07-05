@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b0a4334ce81b648a4cd0f837c902c9, type: 3}
+  m_Name: Sandyards
+  m_EditorClassIdentifier:
+  _displayName: Sand Yards
+  _previewImage: {fileID: 21300000, guid: 01ce504dc67847643a3716c738bf6759, type: 2}
+  _fullScreenImage: {fileID: 2800000, guid: ab707295a3dd94146974121abf2d920e, type: 3}
+  _schema:
+    _texture: {fileID: 2800000, guid: f53ccf71b10362741bdd2c36f4af593a, type: 3}
+    _cameraPosition: {x: -3.9, y: 0, z: -16}
+    _cameraSize: 43
+  _sceneName: Sandyards
+  _gameModes:
+    value:
+    - ArmsRace
+    - DeathMatch
+  _ctArms: FBI
+  _ctCharacters:
+    character: FBI
+    skins:
+    - FBI
+  _trArms: Smugler
+  _trCharacters:
+    character: Insurgent
+    skins:
+    - Insurgent

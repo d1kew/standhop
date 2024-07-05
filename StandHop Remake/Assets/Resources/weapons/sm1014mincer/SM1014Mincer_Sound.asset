@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d6d4e7521efc3419ea36ef4c1f193c, type: 3}
+  m_Name: SM1014Mincer_Sound
+  m_EditorClassIdentifier:
+  _eventSounds:
+  - _eventType: 40
+    _fpsSoundEvent: event:/Weapon/Character/Benelli M4/character_benelli_m4-magazine_in
+    _tpsSoundEvent: event:/Weapon/Other/other_benelli/other_benelli_m4-magazine_in
+  _fpsDeploySoundEvent: event:/Weapon/Character/Change_weapon/change_shotgun
+  _tpsDeploySoundEvent: event:/Weapon/Character/Change_weapon/other_shotgun
+  _hitSoundsEnabled: 0
+  _fpsHitSound:
+    _bodyEvent:
+    _headshotEvent:
+  _tpsHitSound:
+    _bodyEvent:
+    _headshotEvent:
+  _tpsHitSoundDistance: 0
+  _impactSound:
+  _impactSoundDistance: 0
+  _fpsShotEvent: event:/Weapon/Character/Benelli M4/character_benelli_m4_shot
+  _tpsShotEvent: event:/Weapon/Other/other_benelli/other_benelli-shot
+  _fpsScopeEvent:
+  _tpsScopeEvent:
+  _shellsEvent:
+  _isFpsSingleShot: 0

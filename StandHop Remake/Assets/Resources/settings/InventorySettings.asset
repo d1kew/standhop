@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818c872a157c24a4bab753f1e2f14c17, type: 3}
+  m_Name: InventorySettings
+  m_EditorClassIdentifier:
+  _commonColor: {r: 0.5411765, g: 0.6117647, b: 0.63529414, a: 1}
+  _uncommonColor: {r: 0.07450981, g: 0.52156866, b: 0.7607843, a: 1}
+  _rareColor: {r: 0.0627451, g: 0.27450982, b: 0.7019608, a: 1}
+  _epicColor: {r: 0.52156866, g: 0.023529412, b: 0.80784315, a: 1}
+  _legendaryColor: {r: 0.77254903, g: 0.09803922, b: 0.5921569, a: 1}
+  _arcaneColor: {r: 0.83137256, g: 0.11764706, b: 0.13333334, a: 1}
+  _caseColor: {r: 1, g: 0.69803923, b: 0.22352941, a: 1}
+  _boxColor: {r: 0.6862745, g: 0.78039217, b: 0.8745098, a: 1}
+  _statTrackPrefab: {fileID: 114599433740929862, guid: bb2978dad33d019448eb92c842cf093a, type: 2}
+  _statTrackColor: {r: 0.9372549, g: 0.6784314, b: 0.23137255, a: 1}

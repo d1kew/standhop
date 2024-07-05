@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368ca922d6763a54f89482a78a029b9a, type: 3}
+  m_Name: P350_Anim
+  m_EditorClassIdentifier:
+  sourceAnimationStatesLayer: 1
+  animatorController: {fileID: 9100000, guid: d743dfbdefc927a47bc4dc254fc1e931, type: 2}
+  lHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  rHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  animationClipList:
+  - sourceAnimationStateNameList:
+    - Reload_P350
+    sourceAnimationStateNameHashList: ec2e28a2
+    targetAnimationStateName: Reload_P350
+    targetAnimationStateNameHash: -1574424852
+    clipDuration: 3.0000002
+    clipSpeed: 1.1
+    eventList:
+    - id: -1
+      normalizedTime: 0.18030691
+      eventType: 41
+    - id: -1
+      normalizedTime: 0.39897698
+      eventType: 40
+    - id: -1
+      normalizedTime: 0.6023018
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.6764706
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Idle_P350
+    sourceAnimationStateNameHashList: a0493d07
+    targetAnimationStateName: Idle_P350
+    targetAnimationStateNameHash: 121457056
+    clipDuration: 0.13333336
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Shoot_P350
+    sourceAnimationStateNameHashList: 26491f61
+    targetAnimationStateName: Shoot_P350
+    targetAnimationStateNameHash: 1629440294
+    clipDuration: 1.1666667
+    clipSpeed: 1.1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Take_P350
+    sourceAnimationStateNameHashList: 6cdcf5d7
+    targetAnimationStateName: Take_P350
+    targetAnimationStateNameHash: -671753108
+    clipDuration: 1.5666668
+    clipSpeed: 1.1
+    eventList:
+    - id: -1
+      normalizedTime: 0.23913042
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.37979537
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Inspect_P350
+    sourceAnimationStateNameHashList: 65420d58
+    targetAnimationStateName: Inspect_P350
+    targetAnimationStateNameHash: 1477263973
+    clipDuration: 8.333334
+    clipSpeed: 1.1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  fpsCamOffset:
+    pos: {x: -0.28044713, y: -0.046848368, z: 0.018021923}
+    rot: {x: 324.225, y: 346.1898, z: 112.43888}
+  FpsCamFOV: 45
+  FpsCamOffsetClassic:
+    pos: {x: -0.2637861, y: -0.20727076, z: -0.06481924}
+    rot: {x: 324.22498, y: 346.1898, z: 112.43887}
+  FpsCamFOVClassic: 36
+  spineFPSDirectorTR:
+    pos: {x: -0.053, y: -0.008, z: -0.131}
+    rot: {x: 359.55167, y: 324.27322, z: 250.48428}
+  weaponDirectorOnStand:
+    pos: {x: -0.5388887, y: 0.4800943, z: 0.2954915}
+    rot: {x: 310.3233, y: 327.1638, z: 132.60016}
+  weaponDirectorOnCrouch:
+    pos: {x: -0.6387094, y: 0.39479202, z: 0.27899554}
+    rot: {x: 318.37497, y: 316.22177, z: 140.78796}
+  ArmsShakeMult: 1.2
+  magazine1AnimationName: Magazine1
+  magazine2AnimationName: Magazine2
+  magazine3AnimationName:
+  gunlock1AnimationName: Gunlock1
+  gunlock2AnimationName:
+  sightAnimationName:
+  collimatorSightAnimationName:
+  sightLenseAnimationName:
+  sightReticleAnimationName:
+  cartridge1AnimationName:
+  cartridge2AnimationName:
+  BlendedTPSShoot: 0
+  RecoilAnimation:
+    AnimationProgressCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Duration: 0
+    BlendOffset: 0
+    BlendDuration: 0
+  ForceUpdate: 0
+  ForceUpdateInTpsView: 0

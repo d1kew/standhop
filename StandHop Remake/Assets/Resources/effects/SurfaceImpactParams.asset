@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7badce9728f6344a0d916975c5fb4d, type: 3}
+  m_Name: SurfaceImpactParams
+  m_EditorClassIdentifier:
+  _effectDetails:
+    _highDetailCount: 9
+    _mediumDetailCount: 7
+    _lowDetailCount: 4
+    _veryLowDetailCount: 1
+  _decalsParameters:
+    _decalsMaterial: {fileID: 2100000, guid: d8f5132ff4447a2439119717e0d6d01a, type: 2}
+    _effectDetails:
+      _highDetailCount: 500
+      _mediumDetailCount: 350
+      _lowDetailCount: 250
+      _veryLowDetailCount: 160
+  _bulletImpactParams:
+  - _surfaceTypes: 020000000c00000004000000
+    _particles: {fileID: 198129754744404409, guid: 1486344e8bd564144af3af661ade5029, type: 2}
+    _decals:
+    - {fileID: 21300000, guid: 54320f88029dff6469cc0e340cd4e263, type: 2}
+    - {fileID: 21300000, guid: dabcf48f03f6a59469175ec27b85fcc0, type: 2}
+    - {fileID: 21300000, guid: 51402d4a0dca1e346bc3eb3979e80031, type: 2}
+    _size: {x: 0.15, y: 0.15}
+  - _surfaceTypes: 03000000070000000a0000000b000000
+    _particles: {fileID: 198689702384459205, guid: c3046f003311a6745b494de6f063a1d3, type: 2}
+    _decals:
+    - {fileID: 21300000, guid: 708e232826838d24fb15345766da4f5b, type: 2}
+    - {fileID: 21300000, guid: a13a92ebec796e84999c3db463a5eda2, type: 2}
+    - {fileID: 21300000, guid: 84bbb2296acad6047808725740c859e2, type: 2}
+    - {fileID: 21300000, guid: 9591cc751bef1954fae080ddb1c4f054, type: 2}
+    _size: {x: 0.13, y: 0.13}
+  - _surfaceTypes: 080000000600000005000000090000000e0000000f000000
+    _particles: {fileID: 198278776638482159, guid: 8c73349decd41464b98744bb91fc0efa, type: 2}
+    _decals:
+    - {fileID: 21300000, guid: f2c8a59f72f564945a90a894fb4bc915, type: 2}
+    - {fileID: 21300000, guid: c9354fde703065248802c0236629536a, type: 2}
+    - {fileID: 21300000, guid: f83281befffad1247aad6389a0cc4953, type: 2}
+    - {fileID: 21300000, guid: 25d2a25694513d04395d9f84cc9e6850, type: 2}
+    _size: {x: 0.13, y: 0.13}
+  - _surfaceTypes: 01000000
+    _particles: {fileID: 198426791536465006, guid: f954b56ea5e2bbc4cab34f235d443729, type: 2}
+    _decals:
+    - {fileID: 21300000, guid: f12908051300a8c42869b88a2fc84feb, type: 2}
+    _size: {x: 0.2, y: 0.2}
+  _bulletImpactSoundEvent: event:/Weapon/Bullet/bullet_impact
+  _knifeHitParams:
+    _decals:
+    - {fileID: 21300000, guid: 977e0ac5b525a6945bf70a65397c53c1, type: 2}
+    - {fileID: 21300000, guid: d57e5eb59b984e0409025281f5157f07, type: 2}
+    _size: {x: 0.35, y: 0.05}
+  _knifeImpactSoundEvent: event:/Weapon/Character/Knife_hit

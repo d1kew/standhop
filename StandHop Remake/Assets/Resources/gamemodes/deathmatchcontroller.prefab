@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1838535164402383}
+  m_IsPrefabParent: 1
+--- !u!1 &1838535164402383
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4344533489862658}
+  - component: {fileID: 114404338889704094}
+  m_Layer: 0
+  m_Name: DeathMatchController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4344533489862658
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838535164402383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 436.20413, y: 371.50076, z: -12.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114404338889704094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838535164402383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d98970034934148969e7f93995f525, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _friendlyFireOn: 0
+  _maxPlayers: 10
+  _ctPoolSize: 5
+  _trPoolSize: 5
+  _levelUpXpMultiplier: 10
+  _warmupDuration: 40
+  _startingDuration: 3
+  _deathMatchDuration: 600
+  _winnersDuration: 3
+  _statisticsDuration: 3
+  _levelUpDuration: 3
+  _rewardDuration: 10
+  _rewardMinPlayTime: 120
+  _goodGameDropPlaces: 3
+  _nextLevelVotingDuration: 20
+  _waitForNextGameTime: 10
+  _maxSessionId: 3
+  _respawnTime: 1.5
+  _weaponBuyDuration: 10
+  _untouchableDuration: 10
+  _defaultPistolId: 11
+  _deathmatchSoundEvents:
+    _killSound: event:/Game/Common/player_killed

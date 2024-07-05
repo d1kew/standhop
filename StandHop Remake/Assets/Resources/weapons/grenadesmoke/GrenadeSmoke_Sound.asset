@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014c67fda4aaf4743b4d9f7d8a559aad, type: 3}
+  m_Name: GrenadeSmoke_Sound
+  m_EditorClassIdentifier:
+  _eventSounds:
+  - _eventType: 61
+    _fpsSoundEvent: event:/Weapon/Character/Grenade/grenade_hit1
+    _tpsSoundEvent: event:/Weapon/Other/other_grenade/other_grenade_hit1
+  - _eventType: 62
+    _fpsSoundEvent: event:/Weapon/Character/Grenade/grenade_hit2
+    _tpsSoundEvent: event:/Weapon/Other/other_grenade/other_grenade_hit2
+  - _eventType: 60
+    _fpsSoundEvent: event:/Weapon/Character/Grenade/grenade_deploy
+    _tpsSoundEvent: event:/Weapon/Other/other_grenade/other_grenade_deploy
+  - _eventType: 50
+    _fpsSoundEvent: event:/Weapon/Character/Grenade_smoke/grenade_idle_to_ready
+    _tpsSoundEvent: event:/Weapon/Other/other_grenade_smoke/grenade_idle_to_ready
+  _fpsDeploySoundEvent:
+  _tpsDeploySoundEvent:
+  _hitSoundsEnabled: 0
+  _fpsHitSound:
+    _bodyEvent:
+    _headshotEvent:
+  _tpsHitSound:
+    _bodyEvent:
+    _headshotEvent:
+  _tpsHitSoundDistance: 0
+  _impactSound:
+  _impactSoundDistance: 0
+  _explosionSoundEvent: event:/Weapon/Character/Grenade_smoke/grenade_explosion
+  _fpsDropSoundEvent: event:/Weapon/Character/Grenade_smoke/grenade_drop
+  _tpsDropSoundEvent: event:/Weapon/Other/other_grenade_smoke/grenade_drop
+  _earRingingType: 0
+  _earRingingDistance: 0
+  _earRingingDurationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.005887163
+      value: 4.069335
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.998038
+      value: 0.34550852
+      inSlope: -3.8786063
+      outSlope: -3.8786063
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

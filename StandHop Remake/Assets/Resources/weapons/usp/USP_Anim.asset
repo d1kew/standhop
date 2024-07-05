@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368ca922d6763a54f89482a78a029b9a, type: 3}
+  m_Name: USP_Anim
+  m_EditorClassIdentifier:
+  sourceAnimationStatesLayer: 1
+  animatorController: {fileID: 9100000, guid: d743dfbdefc927a47bc4dc254fc1e931, type: 2}
+  lHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  rHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  animationClipList:
+  - sourceAnimationStateNameList:
+    - Idle_USP
+    sourceAnimationStateNameHashList: 89f50901
+    targetAnimationStateName: Idle_USP
+    targetAnimationStateNameHash: 17429897
+    clipDuration: 0.16666664
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Take_USP
+    sourceAnimationStateNameHashList: 6cce8aa9
+    targetAnimationStateName: Take_USP
+    targetAnimationStateNameHash: -1450520980
+    clipDuration: 1.8333335
+    clipSpeed: 1.2
+    eventList:
+    - id: -1
+      normalizedTime: 0.48081845
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.5613811
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Shoot_USP
+    sourceAnimationStateNameHashList: 53b93225
+    targetAnimationStateName: Shoot_USP
+    targetAnimationStateNameHash: 624081235
+    clipDuration: 0.6666667
+    clipSpeed: 1.5
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Reload_USP
+    sourceAnimationStateNameHashList: aed2db1e
+    targetAnimationStateName: Reload_USP
+    targetAnimationStateNameHash: 517722798
+    clipDuration: 3.266667
+    clipSpeed: 1.1
+    eventList:
+    - id: -1
+      normalizedTime: 0.70204604
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.16368286
+      eventType: 41
+    - id: -1
+      normalizedTime: 0.42711
+      eventType: 40
+    - id: -1
+      normalizedTime: 0.75319695
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Inspect_USP
+    sourceAnimationStateNameHashList: b0388a34
+    targetAnimationStateName: Inspect_USP
+    targetAnimationStateNameHash: 881473712
+    clipDuration: 7.833334
+    clipSpeed: 1.1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Inspect2_USP
+    sourceAnimationStateNameHashList: 24fb8353
+    targetAnimationStateName: Inspect2_USP
+    targetAnimationStateNameHash: 1401158436
+    clipDuration: 9.800001
+    clipSpeed: 1.1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  fpsCamOffset:
+    pos: {x: -0.19145313, y: 0.093358085, z: 0.011152399}
+    rot: {x: 273.21692, y: 183.51935, z: 265.04346}
+  FpsCamFOV: 45
+  FpsCamOffsetClassic:
+    pos: {x: -0.21674415, y: -0.07229629, z: 0.08903747}
+    rot: {x: 273.21674, y: 183.5195, z: 265.0433}
+  FpsCamFOVClassic: 36
+  spineFPSDirectorTR:
+    pos: {x: -0.053, y: -0.008, z: -0.131}
+    rot: {x: 0.45066223, y: 266.41077, z: 269.34692}
+  weaponDirectorOnStand:
+    pos: {x: -0.6880679, y: 0.67210245, z: 0.16891927}
+    rot: {x: 304.37613, y: 298.6921, z: 152.96718}
+  weaponDirectorOnCrouch:
+    pos: {x: -0.6880679, y: 0.67210245, z: 0.16891927}
+    rot: {x: 304.37613, y: 298.6921, z: 152.96718}
+  ArmsShakeMult: 1.2
+  magazine1AnimationName: Magazine1
+  magazine2AnimationName: Magazine2
+  magazine3AnimationName:
+  gunlock1AnimationName: Gunlock1
+  gunlock2AnimationName:
+  sightAnimationName:
+  collimatorSightAnimationName:
+  sightLenseAnimationName:
+  sightReticleAnimationName:
+  cartridge1AnimationName:
+  cartridge2AnimationName:
+  BlendedTPSShoot: 0
+  RecoilAnimation:
+    AnimationProgressCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Duration: 0
+    BlendOffset: 0
+    BlendDuration: 0
+  ForceUpdate: 0
+  ForceUpdateInTpsView: 0

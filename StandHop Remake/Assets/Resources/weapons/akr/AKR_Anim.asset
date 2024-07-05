@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368ca922d6763a54f89482a78a029b9a, type: 3}
+  m_Name: AKR_Anim
+  m_EditorClassIdentifier:
+  sourceAnimationStatesLayer: 1
+  animatorController: {fileID: 9100000, guid: d743dfbdefc927a47bc4dc254fc1e931, type: 2}
+  lHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  rHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  animationClipList:
+  - sourceAnimationStateNameList:
+    - Reload_AKR
+    sourceAnimationStateNameHashList: 7720e169
+    targetAnimationStateName: Reload_AKR
+    targetAnimationStateNameHash: 1776361591
+    clipDuration: 3.5000002
+    clipSpeed: 1
+    eventList:
+    - id: -1
+      normalizedTime: 0.34398976
+      eventType: 41
+    - id: -1
+      normalizedTime: 0.3785166
+      eventType: 30
+    - id: -1
+      normalizedTime: 0.5421995
+      eventType: 40
+    - id: -1
+      normalizedTime: 0.68414325
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.7544757
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Take_AKR
+    sourceAnimationStateNameHashList: b53cb0de
+    targetAnimationStateName: Take_AKR
+    targetAnimationStateNameHash: -558875467
+    clipDuration: 1.6666667
+    clipSpeed: 1
+    eventList:
+    - id: -1
+      normalizedTime: 0.34015346
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.46675193
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Shoot_AKR
+    sourceAnimationStateNameHashList: 8a4b0852
+    targetAnimationStateName: Shoot_AKR
+    targetAnimationStateNameHash: 1376275338
+    clipDuration: 1
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Idle_AKR
+    sourceAnimationStateNameHashList: 50073376
+    targetAnimationStateName: Idle_AKR
+    targetAnimationStateNameHash: 1983055696
+    clipDuration: 0.100000024
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Inspect_AKR
+    sourceAnimationStateNameHashList: 69cab043
+    targetAnimationStateName: Inspect_AKR
+    targetAnimationStateNameHash: 1135659625
+    clipDuration: 4.8333335
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  fpsCamOffset:
+    pos: {x: -0.26811945, y: 0.018839017, z: 0.0086281225}
+    rot: {x: 303.07724, y: 334.24777, z: 121.08371}
+  FpsCamFOV: 45
+  FpsCamOffsetClassic:
+    pos: {x: -0.23880687, y: -0.14602172, z: -0.014249243}
+    rot: {x: 303.3511, y: 334.2989, z: 121.03684}
+  FpsCamFOVClassic: 36
+  spineFPSDirectorTR:
+    pos: {x: -0.053, y: -0.008000016, z: -0.13100004}
+    rot: {x: 359.8852, y: 298.55167, z: 254.17728}
+  weaponDirectorOnStand:
+    pos: {x: -0.55199444, y: 0.54269654, z: 0.5469453}
+    rot: {x: 324.5216, y: 331.13177, z: 132.67326}
+  weaponDirectorOnCrouch:
+    pos: {x: -0.7051754, y: 0.47951442, z: 0.47466668}
+    rot: {x: 327.5788, y: 319.16104, z: 145.97186}
+  ArmsShakeMult: 0.85
+  magazine1AnimationName:
+  magazine2AnimationName:
+  magazine3AnimationName:
+  gunlock1AnimationName:
+  gunlock2AnimationName:
+  sightAnimationName:
+  collimatorSightAnimationName:
+  sightLenseAnimationName:
+  sightReticleAnimationName:
+  cartridge1AnimationName:
+  cartridge2AnimationName:
+  BlendedTPSShoot: 0
+  RecoilAnimation:
+    AnimationProgressCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Duration: 0
+    BlendOffset: 0
+    BlendDuration: 0
+  ForceUpdate: 0
+  ForceUpdateInTpsView: 0

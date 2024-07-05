@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d6d4e7521efc3419ea36ef4c1f193c, type: 3}
+  m_Name: AWM_Sound
+  m_EditorClassIdentifier:
+  _eventSounds:
+  - _eventType: 50
+    _fpsSoundEvent: event:/Weapon/Character/AWM/character_awm-gun_lock_1
+    _tpsSoundEvent: event:/Weapon/Other/other_awm/other_awm-gun_lock_1
+  - _eventType: 51
+    _fpsSoundEvent: event:/Weapon/Character/AWM/character_awm-gun_lock_2
+    _tpsSoundEvent: event:/Weapon/Other/other_awm/other_awm-gun_lock_2
+  - _eventType: 40
+    _fpsSoundEvent: event:/Weapon/Character/AWM/character_awm-magazine_in
+    _tpsSoundEvent: event:/Weapon/Other/other_awm/other_awm-magazine_in
+  - _eventType: 41
+    _fpsSoundEvent: event:/Weapon/Character/AWM/character_awm--magazine_out
+    _tpsSoundEvent: event:/Weapon/Other/other_awm/other_awm-magazine_out
+  _fpsDeploySoundEvent: event:/Weapon/Character/Change_weapon/change_sniper_rifle
+  _tpsDeploySoundEvent: event:/Weapon/Character/Change_weapon/other_sniper_rifle
+  _hitSoundsEnabled: 0
+  _fpsHitSound:
+    _bodyEvent:
+    _headshotEvent:
+  _tpsHitSound:
+    _bodyEvent:
+    _headshotEvent:
+  _tpsHitSoundDistance: 0
+  _impactSound:
+  _impactSoundDistance: 0
+  _fpsShotEvent: event:/Weapon/Character/AWM/character_awm_shot
+  _tpsShotEvent: event:/Weapon/Other/other_awm/other_awm-shot
+  _fpsScopeEvent: event:/Weapon/Character/AWM/character_awm_scope
+  _tpsScopeEvent: event:/Weapon/Other/other-scope
+  _shellsEvent:
+  _isFpsSingleShot: 1

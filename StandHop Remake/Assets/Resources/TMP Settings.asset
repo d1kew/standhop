@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861158d8dc7ad8f48802e529b5b4fdd0, type: 3}
+  m_Name: TMP Settings
+  m_EditorClassIdentifier:
+  m_version: 1.0.56.0b1
+  m_enableWordWrapping: 1
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  m_enableTintAllSprites: 0
+  m_enableParseEscapeCharacters: 1
+  m_missingGlyphCharacter: 0
+  m_warningsDisabled: 0
+  m_defaultFontAsset: {fileID: 11400000, guid: 4d3fbf03bb03fb74a87c7abbc78ef79f, type: 2}
+  m_defaultFontAssetPath: Fonts & Materials/
+  m_defaultFontSize: 36
+  m_defaultAutoSizeMinRatio: 0.5
+  m_defaultAutoSizeMaxRatio: 2
+  m_defaultTextMeshProTextContainerSize: {x: 20, y: 5}
+  m_defaultTextMeshProUITextContainerSize: {x: 200, y: 50}
+  m_autoSizeTextContainer: 0
+  m_fallbackFontAssets: []
+  m_matchMaterialPreset: 1
+  m_defaultSpriteAsset: {fileID: 11400000, guid: 612cf29a8c2bdba429fb2792267973d9, type: 2}
+  m_defaultSpriteAssetPath: Sprite Assets/
+  m_defaultColorGradientPresetsPath: Color Gradient Presets/
+  m_enableEmojiSupport: 1
+  m_defaultStyleSheet: {fileID: 11400000, guid: 723901ee419111c4d9895b8f64949a67, type: 2}
+  m_leadingCharacters: {fileID: 4900000, guid: cd95a80f1cbbc9441b80a5b375361f98, type: 3}
+  m_followingCharacters: {fileID: 4900000, guid: 2a24cdb2dec4f364fb2b9e2846563c19, type: 3}

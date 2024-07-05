@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdb7ec93f324274092e0d4008c2af63, type: 3}
+  m_Name: AssistanceCollection
+  m_EditorClassIdentifier:
+  _collectionId: 1
+  _displayName: Assistance Collection
+  _image: {fileID: 21300000, guid: 40d7cb6decf20d341a3a90224faf61d4, type: 2}

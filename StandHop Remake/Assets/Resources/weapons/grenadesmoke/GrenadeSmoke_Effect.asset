@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73122aad5c9f0a418d7907194f1578a, type: 3}
+  m_Name: GrenadeSmoke_Effect
+  m_EditorClassIdentifier:
+  _trailGradient:
+    serializedVersion: 2
+    key0: {r: 0.19607843, g: 0.4392157, b: 0, a: 1}
+    key1: {r: 0.1596856, g: 0.49264705, b: 0, a: 0}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 2699
+    ctime1: 58982
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 4241
+    atime1: 63800
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  _material: {fileID: 2100000, guid: 094be9574a304b14da62c8f0d6ac6459, type: 2}
+  _particles: {fileID: 198727865096989578, guid: a30593d8afd48b44c88a14b2ee98329b, type: 2}
+  _particleDuration: 19
+  _particleAdaptiveRotation: 0
+  _particlesPoolSize: 5
+  _decals: []
+  _decalSize: {x: 4, y: 4}
+  _decalCastDistance: 0.1
+  _radius: 4.7
+  _effectPoolSize: 5
+  _isRubberPool: 1
+  _enableOnlyInRadius: 0
+  _damageEffect:
+    _enabled: 0
+    _texture: {fileID: 0}
+    _distanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _duration: 0
+  _flashbangEffect:
+    _enabled: 0
+    _texture: {fileID: 0}
+    _curvesByAngle: []
+    _distanceMultiplierCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _screenShotMultiplier: 0
+  _smokeEffect:
+    _enabled: 1
+    _texture: {fileID: 2800000, guid: 6814ac1307bb71048b9e8679425172a9, type: 3}
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.98544294
+        inSlope: -0.012602356
+        outSlope: -0.012602356
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.740735
+        value: 0.69990563
+        inSlope: -1.1442419
+        outSlope: -1.1442419
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.99702764
+        value: -0.01415243
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    _radiusMultiplier:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.002993418
+        value: 0.49885055
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.14208284
+        value: 1.001152
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90011895
+        value: 0.9971186
+        inSlope: -0.00059604645
+        outSlope: -0.00059604645
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.003449
+        value: 0.002704084
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    _dynamicOcclusionMultiplier:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.00023920648
+        value: -0.00055781007
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.24677339
+        value: 0.40554348
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8175114
+        value: 0.40546882
+        inSlope: -0.00059604645
+        outSlope: -0.00059604645
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.003449
+        value: -0.00012609892
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    _duration: 19

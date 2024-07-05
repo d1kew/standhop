@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119fd17706f12664a8f8c3d6456f2782, type: 3}
+  m_Name: ProfileSettings
+  m_EditorClassIdentifier:
+  _startLevelUpXp: 3000
+  _levelUpXpK: 100
+  _levels:
+  - _icon: {fileID: 21300000, guid: ddaf8fb575062a84cbc2f4cfc2588aa4, type: 2}
+    _name: RECRUIT 1
+  - _icon: {fileID: 21300000, guid: bda03aa625e012940912e5000a5d2967, type: 2}
+    _name: RECRUIT 2
+  - _icon: {fileID: 21300000, guid: ce0b493295abec64bb8361e840e38b7f, type: 2}
+    _name: RECRUIT 3
+  - _icon: {fileID: 21300000, guid: 83c14fc9df632804a9448269732ba9d0, type: 2}
+    _name: PRIVATE 1
+  - _icon: {fileID: 21300000, guid: 343bf163947677a45b14afc848c5a24d, type: 2}
+    _name: PRIVATE 2
+  - _icon: {fileID: 21300000, guid: 26ef9a2f4ffdee2469ff790d3e9abbbe, type: 2}
+    _name: PRIVATE 3
+  - _icon: {fileID: 21300000, guid: 8fced74812c3ab84f898b07896a95f81, type: 2}
+    _name: CORPORAL 1
+  - _icon: {fileID: 21300000, guid: ebc6dbcaeb55edb4fa155beb8e15fa3b, type: 2}
+    _name: CORPORAL 2
+  - _icon: {fileID: 21300000, guid: 6c54c9b9f6bcf3642a6707006cd91edd, type: 2}
+    _name: CORPORAL 3
+  - _icon: {fileID: 21300000, guid: 431b47a9d3a0c6f45893bad58c737bd2, type: 2}
+    _name: SERGEANT 1
+  - _icon: {fileID: 21300000, guid: 96d92f26e10e3ee4187340694a9abcca, type: 2}
+    _name: SERGEANT 2
+  - _icon: {fileID: 21300000, guid: 4910e6c2b10ba4d4a82aa70b3d5658f1, type: 2}
+    _name: SERGEANT 3
+  - _icon: {fileID: 21300000, guid: a8f45073025aca94d81d9afba5c93612, type: 2}
+    _name: STAFF SERGEANT 1
+  - _icon: {fileID: 21300000, guid: 464fe426063b53d4d92edcbb17ab29d2, type: 2}
+    _name: STAFF SERGEANT 2
+  - _icon: {fileID: 21300000, guid: 3a50523d61bcade4fb6f6b40df234d0d, type: 2}
+    _name: STAFF SERGEANT 3
+  - _icon: {fileID: 21300000, guid: 092edf47535838b40b6037dfa295b07c, type: 2}
+    _name: 3RD SERGEANT
+  - _icon: {fileID: 21300000, guid: 714950daa0918154eb48e7b3f158c226, type: 2}
+    _name: 2ND SERGEANT
+  - _icon: {fileID: 21300000, guid: 76b8efc0817856149be13b8ee8fd32c1, type: 2}
+    _name: 1ST SERGEANT
+  - _icon: {fileID: 21300000, guid: 606da51e968c3364ba6b861752827896, type: 2}
+    _name: MASTER SERGEANT 1
+  - _icon: {fileID: 21300000, guid: 119906bd8594e224c9368bf16a9573c9, type: 2}
+    _name: MASTER SERGEANT 2
+  - _icon: {fileID: 21300000, guid: 12e860a4f79de014e8f66370f5b0043c, type: 2}
+    _name: MASTER SERGEANT 3
+  - _icon: {fileID: 21300000, guid: 22b9bcc6dcbee1b49ade7859852186f8, type: 2}
+    _name: MAJOR SERGEANT 1
+  - _icon: {fileID: 21300000, guid: 63056b01ffe72934b97f11a279e7a8d3, type: 2}
+    _name: MAJOR SERGEANT 2
+  - _icon: {fileID: 21300000, guid: aad71e7c3db2b92478de6cbdda2e6dfe, type: 2}
+    _name: MAJOR SERGEANT 3
+  - _icon: {fileID: 21300000, guid: f71a056ea5891ee4ebbe6ee859a52126, type: 2}
+    _name: 2ND LIEUTENANT 1
+  - _icon: {fileID: 21300000, guid: dd1639a287d562543b1e5d51d5bdd923, type: 2}
+    _name: 2ND LIEUTENANT 2
+  - _icon: {fileID: 21300000, guid: da71e4cda9591f540a5302cbf6ffe2b5, type: 2}
+    _name: 2ND LIEUTENANT 3
+  - _icon: {fileID: 21300000, guid: be16809ce6cea6d44b699bd06e423049, type: 2}
+    _name: 1ST LIEUTENANT 1
+  - _icon: {fileID: 21300000, guid: dc8262f8f7d81e744992e8756bf8bc6d, type: 2}
+    _name: 1ST LIEUTENANT 2
+  - _icon: {fileID: 21300000, guid: a272a530269d8674f99706a5da93eb8b, type: 2}
+    _name: 1ST LIEUTENANT 3
+  - _icon: {fileID: 21300000, guid: 7d652a0f50401044c9f2773b79cfc269, type: 2}
+    _name: CAPTAIN 1
+  - _icon: {fileID: 21300000, guid: bcdc1bc81744e964ba6fc80e69203e6a, type: 2}
+    _name: CAPTAIN 2
+  - _icon: {fileID: 21300000, guid: 62cf9e45db91abf488ab2189914c312c, type: 2}
+    _name: CAPTAIN 3
+  - _icon: {fileID: 21300000, guid: 13bdbde37f39f4b4fb5fb286a969a4e2, type: 2}
+    _name: MAJOR
+  - _icon: {fileID: 21300000, guid: 5f230b48713f46743b5f50893203c7ec, type: 2}
+    _name: LIEUTENANT  COLONEL
+  - _icon: {fileID: 21300000, guid: 1a2990995337dc843ad3263f2de3bbba, type: 2}
+    _name: COLONEL 1
+  - _icon: {fileID: 21300000, guid: 2d188dedcb25d13429f1257d68f5da8d, type: 2}
+    _name: COLONEL 2
+  - _icon: {fileID: 21300000, guid: dd26b73411a1971499a502b4f635bf5b, type: 2}
+    _name: COLONEL 3
+  - _icon: {fileID: 21300000, guid: 9bd91dd889b56c84790771fbef1cdd90, type: 2}
+    _name: 3RD COLONEL
+  - _icon: {fileID: 21300000, guid: a0dca43b919f304409f0292259214378, type: 2}
+    _name: 2ND COLONEL
+  - _icon: {fileID: 21300000, guid: 799441e52b069664f8a71db9d1cf14df, type: 2}
+    _name: 1ST COLONEL
+  - _icon: {fileID: 21300000, guid: 67bc9994243fcc841ad143e923c13400, type: 2}
+    _name: BRIGADIER GEN. 1
+  - _icon: {fileID: 21300000, guid: e16287e3285b26847a526564d4688de3, type: 2}
+    _name: BRIGADIER GEN. 2
+  - _icon: {fileID: 21300000, guid: 2fcff30af65314a4993f0c2f8d18de6c, type: 2}
+    _name: MASTER GEN. 1
+  - _icon: {fileID: 21300000, guid: 287ff20180f158c47a9d5912b1ae02fd, type: 2}
+    _name: MASTER GEN. 2
+  - _icon: {fileID: 21300000, guid: 7b4ad8caa06df14439e2c3a84d43f2af, type: 2}
+    _name: 'LIEUTENANT GEN. 1 '
+  - _icon: {fileID: 21300000, guid: 9b56a227b3957bc44b2f8eaa903fb99b, type: 2}
+    _name: LIEUTENANT GEN. 2
+  - _icon: {fileID: 21300000, guid: e28f25debe0a73d47a8769707edb861e, type: 2}
+    _name: 1ST GENERAL
+  - _icon: {fileID: 21300000, guid: 6bbe55f514fdf744cae67a6947983f25, type: 2}
+    _name: 2ND GENERAL
+  - _icon: {fileID: 21300000, guid: f5d1aeae7d1345e408e377de60b39e72, type: 2}
+    _name: COMMANDOR
+  _ranks:
+  - _icon: {fileID: 21300000, guid: 0e2c3fd3f240679478f55c16ac815803, type: 2}
+    _name: Bonze I
+  - _icon: {fileID: 21300000, guid: 0504c5b1435f93e46959e8217bbf449d, type: 2}
+    _name: Bonze II
+  - _icon: {fileID: 21300000, guid: 13ceecab5b0e98b4787b4f34313098cd, type: 2}
+    _name: Bonze III
+  - _icon: {fileID: 21300000, guid: 3cd4510f964e6b1499ee3ceffec26316, type: 2}
+    _name: Bonze IV
+  - _icon: {fileID: 21300000, guid: 5bf4c7fe3095fab479a4753b8d1f011e, type: 2}
+    _name: Silver I
+  - _icon: {fileID: 21300000, guid: ae67350161670264bace776acebe75dd, type: 2}
+    _name: Silver II
+  - _icon: {fileID: 21300000, guid: 0db784ec4c9cc1c468fe4f7a28cf5bcc, type: 2}
+    _name: Silver III
+  - _icon: {fileID: 21300000, guid: a0ec7a47bf9e7bc489fd5199c166e673, type: 2}
+    _name: Silver IV
+  - _icon: {fileID: 21300000, guid: 1c3d491ad8506e643a85afc7eef1c28b, type: 2}
+    _name: Gold I
+  - _icon: {fileID: 21300000, guid: 7f90340252c9c28459c3b48ea42da25b, type: 2}
+    _name: Gold II
+  - _icon: {fileID: 21300000, guid: 0f8fd9d6a7568944db37f53648676037, type: 2}
+    _name: Gold III
+  - _icon: {fileID: 21300000, guid: 61386e705513908419a417dc979c8775, type: 2}
+    _name: Gold IV
+  - _icon: {fileID: 21300000, guid: 331f4c9818bb99b44a03b6c2375c4008, type: 2}
+    _name: Phoenix
+  - _icon: {fileID: 21300000, guid: 4bc2506f416d36642b917770a1931f68, type: 2}
+    _name: Ranger
+  - _icon: {fileID: 21300000, guid: 8262724d7e319744c81f9eee5718a776, type: 2}
+    _name: Champion
+  - _icon: {fileID: 21300000, guid: d4e3cbe6975eb2541877a6ec5a791ec6, type: 2}
+    _name: Master
+  - _icon: {fileID: 21300000, guid: e35be4d6b046cb847a33cff0cc2a7632, type: 2}
+    _name: Elite
+  - _icon: {fileID: 21300000, guid: c3c00794ef00530449c81b4c6da2a062, type: 2}
+    _name: The Legend

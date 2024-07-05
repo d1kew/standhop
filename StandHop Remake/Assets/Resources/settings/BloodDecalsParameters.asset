@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f8b1a918ed9304e9c90c88a6365c23, type: 3}
+  m_Name: BloodDecalsParameters
+  m_EditorClassIdentifier:
+  _castDistance: 2
+  _decalsParameters:
+    _decalsMaterial: {fileID: 2100000, guid: d8f5132ff4447a2439119717e0d6d01a, type: 2}
+    _effectDetails:
+      _highDetailCount: 20
+      _mediumDetailCount: 15
+      _lowDetailCount: 10
+      _veryLowDetailCount: 5
+  _decals:
+  - {fileID: 21300000, guid: 29f69490dbbfa264f8dff0aabe3b646a, type: 2}
+  - {fileID: 21300000, guid: 6bc4be6510ca7054aa0cda6c3a2b00d5, type: 2}
+  - {fileID: 21300000, guid: 38839521499470743b6fce08e0e543a1, type: 2}
+  - {fileID: 21300000, guid: fd5623d5b011751448233ab1aeab9186, type: 2}
+  _size: {x: 2, y: 2}

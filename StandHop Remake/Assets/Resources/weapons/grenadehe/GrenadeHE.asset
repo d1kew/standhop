@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4959756366303754e8401a4e5fb44edc, type: 3}
+  m_Name: GrenadeHE
+  m_EditorClassIdentifier:
+  _id: 91
+  _displayName: HE Grenade
+  _cost: 300
+  _movementRate: 250
+  _sprites:
+    _icon: {fileID: 21300000, guid: 2857cd6f3c146f74785d8aa26ccd2446, type: 2}
+    _line: {fileID: 21300000, guid: cffa82500cc838e4c8db3cfd3327e627, type: 2}
+    _glow: {fileID: 21300000, guid: cad56545d4686ac46830fccb9bbc8a93, type: 2}
+    _preview: {fileID: 21300000, guid: 1970d525c3832b340a5cc7d319c52add, type: 2}
+  _fixScale: 1
+  _dropBoxCollider: 1
+  _throwParameters:
+    _throwRotation: {x: 0, y: 0, z: 0}
+    _throwOffset: {x: 0, y: 0, z: 0}
+    _throwVelocity: {x: 0, y: 0, z: 0}
+    _throwAngularVelocity: {x: 0, y: 0, z: 0}
+    _dropVelocity: {x: 0, y: 0.1, z: 0.5}
+    _dropAngularVelocity: {x: 0, y: 0, z: 0}
+  _inspectable: 0
+  _inspectableBonus: 0
+  _hitDelayParameters:
+    _minHitAffect: 0.7
+    _maxHitAffect: 0.7
+    _hitDuration: 2
+    _hitAffectDuration: 0.5
+  _customAnimationName:
+  _customAnimationWeaponId: 0
+  _takeDuration: 0.3
+  _throwDuration: 0.5
+  _nearThrowDuration: 0.2
+  _throwByTap: 0
+  _nearThrowParameters:
+    Offset: {x: 0, y: -0.1, z: 0}
+    UpVectorLength: 0.5
+    ThrowForce: 215
+    AdditionalForcePerMovementVelocity: 0
+    AdditionalForceLimit: 0
+  _farThrowParameters:
+    Offset: {x: 0, y: 0.05, z: 0}
+    UpVectorLength: 0.1
+    ThrowForce: 1000
+    AdditionalForcePerMovementVelocity: 45
+    AdditionalForceLimit: 300
+  _detonationType: 0
+  _detonationDuration: 3
+  _damageRadius: 5.5
+  _damage: 99
+  _penetrationPower: 50
+  _armorPenetration: 79
+  _impulse: 230
+  _damageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.017875671
+      value: 0.99762523
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.53848696
+      value: 0.8361567
+      inSlope: -1.1011488
+      outSlope: -1.1011488
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.97774494
+      value: -0.0037379265
+      inSlope: -0.28841653
+      outSlope: -0.28841653
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  _backToPoolDelay: 0
+  _unlimited: 0

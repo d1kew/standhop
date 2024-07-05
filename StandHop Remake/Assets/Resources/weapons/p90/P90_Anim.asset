@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368ca922d6763a54f89482a78a029b9a, type: 3}
+  m_Name: P90_Anim
+  m_EditorClassIdentifier:
+  sourceAnimationStatesLayer: 1
+  animatorController: {fileID: 9100000, guid: d743dfbdefc927a47bc4dc254fc1e931, type: 2}
+  lHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  rHandAnimatorController: {fileID: 9100000, guid: ad1b9d356a18d234eaebba5b80cd70c1, type: 2}
+  animationClipList:
+  - sourceAnimationStateNameList:
+    - Reload_P90
+    sourceAnimationStateNameHashList: 30f2b0ca
+    targetAnimationStateName: Reload_P90
+    targetAnimationStateNameHash: -894373328
+    clipDuration: 4.1666665
+    clipSpeed: 1.2
+    eventList:
+    - id: -1
+      normalizedTime: 0.12915601
+      eventType: 41
+    - id: -1
+      normalizedTime: 0.4117647
+      eventType: 40
+    - id: -1
+      normalizedTime: 0.53836316
+      eventType: 31
+    - id: -1
+      normalizedTime: 0.71099746
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.7468031
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Take_P90
+    sourceAnimationStateNameHashList: f2eee17d
+    targetAnimationStateName: Take_P90
+    targetAnimationStateNameHash: 2111958770
+    clipDuration: 2
+    clipSpeed: 1.2
+    eventList:
+    - id: -1
+      normalizedTime: 0.39897698
+      eventType: 50
+    - id: -1
+      normalizedTime: 0.4629156
+      eventType: 51
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Shoot_P90
+    sourceAnimationStateNameHashList: cd9959f1
+    targetAnimationStateName: Shoot_P90
+    targetAnimationStateNameHash: -245786163
+    clipDuration: 1.0333335
+    clipSpeed: 1.1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Idle_P90
+    sourceAnimationStateNameHashList: 17d562d5
+    targetAnimationStateName: Idle_P90
+    targetAnimationStateNameHash: -714943209
+    clipDuration: 0.16666675
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  - sourceAnimationStateNameList:
+    - Inspect_P90
+    sourceAnimationStateNameHashList: 2e18e1e0
+    targetAnimationStateName: Inspect_P90
+    targetAnimationStateNameHash: -522119122
+    clipDuration: 5.8333335
+    clipSpeed: 1
+    eventList: []
+    markerList: []
+    segmentsList: []
+  fpsCamOffset:
+    pos: {x: -0.25329274, y: -0.12016633, z: -0.02632674}
+    rot: {x: 301.073, y: 329.3931, z: 125.379}
+  FpsCamFOV: 45
+  FpsCamOffsetClassic:
+    pos: {x: -0.19871244, y: -0.36526924, z: -0.043762565}
+    rot: {x: 300.94464, y: 329.3858, z: 125.38503}
+  FpsCamFOVClassic: 36
+  spineFPSDirectorTR:
+    pos: {x: -0.053, y: -0.008, z: -0.131}
+    rot: {x: 0.7950117, y: 296.0176, z: 252.50497}
+  weaponDirectorOnStand:
+    pos: {x: -0.440444, y: 0.41156736, z: 0.22722015}
+    rot: {x: 318.5507, y: 322.86676, z: 134.1685}
+  weaponDirectorOnCrouch:
+    pos: {x: -0.49418885, y: 0.3666794, z: 0.2980184}
+    rot: {x: 326.7438, y: 322.85892, z: 139.14749}
+  ArmsShakeMult: 0.85
+  magazine1AnimationName: Magazine1
+  magazine2AnimationName: Magazine2
+  magazine3AnimationName:
+  gunlock1AnimationName: Gunlock1
+  gunlock2AnimationName:
+  sightAnimationName:
+  collimatorSightAnimationName:
+  sightLenseAnimationName:
+  sightReticleAnimationName:
+  cartridge1AnimationName:
+  cartridge2AnimationName:
+  BlendedTPSShoot: 0
+  RecoilAnimation:
+    AnimationProgressCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Duration: 0
+    BlendOffset: 0
+    BlendDuration: 0
+  ForceUpdate: 0
+  ForceUpdateInTpsView: 0

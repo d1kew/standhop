@@ -1,0 +1,750 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81216792f881fa4594c9696488a9587, type: 3}
+  m_Name: PlayerMecanimConfig
+  m_EditorClassIdentifier:
+  transitionList:
+  - name: Transition ID 0
+    duration: 0.1851772
+    offset: 0
+  - name: Transition ID 1
+    duration: 0.4155476
+    offset: 0
+  - name: Transition ID 2
+    duration: 0.109897375
+    offset: 0.0951985
+  - name: Transition ID 3
+    duration: 0.099999994
+    offset: 0.2026297
+  - name: Transition ID 4
+    duration: 0.10575342
+    offset: 0.07566435
+  - name: Transition ID 5
+    duration: 0.19531249
+    offset: 0
+  - name: Transition ID 6
+    duration: 0.120000124
+    offset: 0.076728456
+  - name: Transition ID 7
+    duration: 0.13788605
+    offset: 0
+  - name: Transition ID 8
+    duration: 0.19477892
+    offset: 0
+  - name: Transition ID 9
+    duration: 0.09550333
+    offset: 0
+  - name: Transition ID 10
+    duration: 0.24105692
+    offset: 0
+  - name: Transition ID 11
+    duration: 0.1
+    offset: 0
+  - name: Transition ID 12
+    duration: 0.05864483
+    offset: 0
+  - name: Transition ID 13
+    duration: 0.25135392
+    offset: 0.0031121313
+  - name: Transition ID 14
+    duration: 0.099999905
+    offset: 0.927794
+  - name: Transition ID 15
+    duration: 0.0031573176
+    offset: 0.028382177
+  - name: Transition ID 16
+    duration: 0.099999994
+    offset: 0.93684363
+  - name: Transition ID 17
+    duration: 0.099999905
+    offset: 0.9334989
+  - name: Transition ID 18
+    duration: 0.099999905
+    offset: 0.88360584
+  - name: Transition ID 19
+    duration: 0.1
+    offset: 1.035933
+  - name: Transition ID 20
+    duration: 0.100000024
+    offset: 1.0359328
+  - name: Transition ID 21
+    duration: 0.1
+    offset: 0
+  - name: Transition ID 22
+    duration: 1E-06
+    offset: 0.08545947
+  - name: Transition ID 23
+    duration: 0.0533908
+    offset: 0.29873505
+  - name: Transition ID 24
+    duration: 0.038446367
+    offset: 0.14346382
+  - name: Transition ID 25
+    duration: 0.00959295
+    offset: 0.052826233
+  - name: Transition ID 26
+    duration: 0.023147821
+    offset: 0.43135607
+  - name: Transition ID 27
+    duration: 0.2
+    offset: 0
+  - name: Transition ID 28
+    duration: 0
+    offset: 0.23221505
+  - name: Transition ID 29
+    duration: 0
+    offset: 0.28078872
+  - name: Transition ID 30
+    duration: 0.009189248
+    offset: 0.059071112
+  - name: Transition ID 31
+    duration: 0.001
+    offset: 0
+  - name: Transition ID 32
+    duration: 0.05339086
+    offset: 0.17783119
+  - name: Transition ID 33
+    duration: 0.01
+    offset: 0.2145553
+  - name: Transition ID 34
+    duration: 0.0001
+    offset: 0
+  - name: Transition ID 35
+    duration: 0.0065842867
+    offset: 0.002485721
+  - name: Transition ID 36
+    duration: 0.01
+    offset: 0
+  - name: Transition ID 37
+    duration: 0.01
+    offset: 0
+  - name: Transition ID 38
+    duration: 0.061386228
+    offset: 0.14022605
+  - name: Transition ID 39
+    duration: 0.001
+    offset: 0.08209896
+  - name: Transition ID 40
+    duration: 0.013222575
+    offset: 0.11422974
+  - name: Transition ID 41
+    duration: 0.019612908
+    offset: 0.39670634
+  - name: Transition ID 42
+    duration: 0.14293623
+    offset: 0.67164594
+  - name: Transition ID 43
+    duration: 0.1
+    offset: 0
+  - name: Transition ID 44
+    duration: 0.03678167
+    offset: 0.021674868
+  - name: Transition ID 45
+    duration: 0.02687776
+    offset: 0.11611611
+  - name: Transition ID 46
+    duration: 0.10422671
+    offset: 0.020354046
+  - name: Transition ID 47
+    duration: 0.031273544
+    offset: 0
+  - name: Transition ID 48
+    duration: 0.02158498
+    offset: 0
+  - name: Transition ID 49
+    duration: 0.11546552
+    offset: 0
+  - name: Transition ID 50
+    duration: 0.07097107
+    offset: 0
+  - name: Transition ID 51
+    duration: 0.022815526
+    offset: 0.11788912
+  - name: Transition ID 52
+    duration: 0.028886914
+    offset: 0.008652254
+  - name: Transition ID 53
+    duration: 0.01
+    offset: 0.067086145
+  - name: Transition ID 54
+    duration: 0.030398011
+    offset: 0.15262462
+  - name: Transition ID 55
+    duration: 0.1
+    offset: 0
+  - name: Transition ID 56
+    duration: 0.029946208
+    offset: 0.14073202
+  - name: Transition ID 57
+    duration: 0.03300655
+    offset: 0.27607107
+  - name: Transition ID 58
+    duration: 0.04746133
+    offset: 0
+  - name: Transition ID 59
+    duration: 0
+    offset: 0.102136545
+  - name: Transition ID 60
+    duration: 0.028384209
+    offset: 0.31114846
+  - name: Transition ID 61
+    duration: 0.039590597
+    offset: 0.13088615
+  - name: Transition ID 62
+    duration: 0.017576844
+    offset: 0.0826587
+  - name: Transition ID 63
+    duration: 0.039467573
+    offset: 0.14972633
+  - name: Transition ID 64
+    duration: 0.007705331
+    offset: 0.029100185
+  - name: Transition ID 65
+    duration: 0.0046856403
+    offset: 0.22306271
+  - name: Transition ID 66
+    duration: 0.0051994324
+    offset: 0.1449532
+  - name: Transition ID 67
+    duration: 0.0018780231
+    offset: 0.078981
+  - name: Transition ID 68
+    duration: 0.08392662
+    offset: 0.04567021
+  - name: Transition ID 69
+    duration: 0
+    offset: 0.020402163
+  - name: Transition ID 70
+    duration: 0.04323852
+    offset: 0.022212366
+  - name: Transition ID 71
+    duration: 0.07021463
+    offset: 0.06288854
+  - name: Transition ID 72
+    duration: 0.038318574
+    offset: 0
+  - name: Transition ID 73
+    duration: 0.011424065
+    offset: 0.18010683
+  - name: Transition ID 74
+    duration: 0
+    offset: 0
+  - name: Transition ID 75
+    duration: 0.022637546
+    offset: 0.010993366
+  - name: Transition ID 76
+    duration: 0.071767926
+    offset: 0.09871813
+  - name: Transition ID 77
+    duration: 0.09581673
+    offset: 0
+  - name: Transition ID 78
+    duration: 0.037143826
+    offset: 0.102940984
+  - name: Transition ID 79
+    duration: 0.08921963
+    offset: 0.029859269
+  - name: Transition ID 80
+    duration: 0.005830407
+    offset: 0.04108935
+  - name: Transition ID 81
+    duration: 0
+    offset: 0.31740984
+  - name: Transition ID 82
+    duration: 0
+    offset: 0.06286689
+  - name: Transition ID 83
+    duration: 0.03075409
+    offset: 0.03445301
+  - name: Transition ID 84
+    duration: 0.019474924
+    offset: 0.0061103753
+  - name: Transition ID 85
+    duration: 0.034977257
+    offset: 0
+  - name: Transition ID 86
+    duration: 0
+    offset: 0
+  - name: Transition ID 87
+    duration: 0
+    offset: 0.14974926
+  - name: Transition ID 88
+    duration: 0
+    offset: 0.08715108
+  - name: Transition ID 89
+    duration: 0
+    offset: 0.083861545
+  - name: Transition ID 90
+    duration: 0
+    offset: 0
+  - name: Transition ID 91
+    duration: 0
+    offset: 0.1497493
+  - name: Transition ID 92
+    duration: 0
+    offset: 0.08386154
+  - name: Transition ID 93
+    duration: 0
+    offset: 0.08386154
+  - name: Transition ID 94
+    duration: 0
+    offset: 0
+  - name: Transition ID 95
+    duration: 0
+    offset: 0.1497493
+  - name: Transition ID 96
+    duration: 0
+    offset: 0.08386154
+  - name: Transition ID 97
+    duration: 0
+    offset: 0.08386154
+  - name: Transition ID 98
+    duration: 0.02088654
+    offset: 0.104206316
+  - name: Transition ID 99
+    duration: 0.0067361593
+    offset: 0.15197551
+  - name: Transition ID 100
+    duration: 0.0045960546
+    offset: 0.255048
+  - name: Transition ID 101
+    duration: 0.026806116
+    offset: 0.011896098
+  - name: Transition ID 102
+    duration: 0
+    offset: 0.087869085
+  - name: Transition ID 103
+    duration: 0
+    offset: 0.31222647
+  - name: Transition ID 104
+    duration: 0.03910756
+    offset: 0.029434193
+  - name: Transition ID 105
+    duration: 0.25
+    offset: 0
+  - name: Transition ID 106
+    duration: 0.0075781345
+    offset: 0.18020618
+  - name: Transition ID 107
+    duration: 0.00958617
+    offset: 0.05761394
+  - name: Transition ID 108
+    duration: 0.25
+    offset: 0
+  - name: Transition ID 109
+    duration: 0.018375337
+    offset: 0
+  - name: Transition ID 110
+    duration: 0.04850982
+    offset: 0.0025029941
+  - name: Transition ID 111
+    duration: 0.05530733
+    offset: 0.00898584
+  - name: Transition ID 112
+    duration: 0.040112875
+    offset: 0
+  - name: Transition ID 113
+    duration: 0.052690074
+    offset: 0
+  - name: Transition ID 114
+    duration: 0.027608275
+    offset: 0.010750323
+  - name: Transition ID 115
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 116
+    duration: 0.01000011
+    offset: 0.48236308
+  - name: Transition ID 117
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 118
+    duration: 0.050132632
+    offset: 0.6350467
+  - name: Transition ID 119
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 120
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 121
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 122
+    duration: 0.091965675
+    offset: 0.3792833
+  - name: Transition ID 123
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 124
+    duration: 0.00999999
+    offset: 0.75483894
+  - name: Transition ID 125
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 126
+    duration: 0.010163784
+    offset: 1.4917645
+  - name: Transition ID 127
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 128
+    duration: 0.01
+    offset: 0
+  - name: Transition ID 129
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 130
+    duration: 0.017999828
+    offset: 1.3919989
+  - name: Transition ID 131
+    duration: 0.01
+    offset: 0.045916434
+  - name: Transition ID 132
+    duration: 0.01
+    offset: 0
+  - name: Transition ID 133
+    duration: 0.05
+    offset: 0
+  - name: Transition ID 134
+    duration: 0.097316265
+    offset: 9.592167
+  - name: Transition ID 135
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 136
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 137
+    duration: 0.057251453
+    offset: 0.046951722
+  - name: Transition ID 138
+    duration: 0
+    offset: 0
+  - name: Transition ID 139
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 140
+    duration: 0.00999999
+    offset: 0.75483894
+  - name: Transition ID 141
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 142
+    duration: 0.045993805
+    offset: 10.073714
+  - name: Transition ID 143
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 144
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 145
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 146
+    duration: 0.021095157
+    offset: 2.0534093
+  - name: Transition ID 147
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 148
+    duration: 0.01000011
+    offset: 0.48236308
+  - name: Transition ID 149
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 150
+    duration: 0.078163624
+    offset: 15.736603
+  - name: Transition ID 151
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 152
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 153
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 154
+    duration: 0.023859978
+    offset: 1.5525419
+  - name: Transition ID 155
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 156
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 157
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 158
+    duration: 0.00999999
+    offset: 0.31658715
+  - name: Transition ID 159
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 160
+    duration: 0.01003623
+    offset: 0.88431925
+  - name: Transition ID 161
+    duration: 0.01
+    offset: 0.045916434
+  - name: Transition ID 162
+    duration: 0.03879422
+    offset: 0.11121714
+  - name: Transition ID 163
+    duration: 0.03879422
+    offset: 0.1112171
+  - name: Transition ID 164
+    duration: 0.05
+    offset: 0
+  - name: Transition ID 165
+    duration: 0.047231197
+    offset: 4.9645233
+  - name: Transition ID 166
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 167
+    duration: 0.01000011
+    offset: 0.48236308
+  - name: Transition ID 168
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 169
+    duration: 0.04746437
+    offset: 7.9856977
+  - name: Transition ID 170
+    duration: 0.0027874112
+    offset: 0
+  - name: Transition ID 171
+    duration: 0.01000011
+    offset: 0.48236308
+  - name: Transition ID 172
+    duration: 0.01368618
+    offset: 0
+  - name: Transition ID 173
+    duration: 0.09363079
+    offset: 7.8766637
+  - name: Transition ID 174
+    duration: 0.012154818
+    offset: 0
+  - name: Transition ID 175
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 176
+    duration: 0.02955854
+    offset: 0.06772144
+  - name: Transition ID 177
+    duration: 0.030870318
+    offset: 0.07304345
+  - name: Transition ID 178
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 179
+    duration: 0.00999999
+    offset: 0.75483894
+  - name: Transition ID 180
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 181
+    duration: 0.06792545
+    offset: 1.5606245
+  - name: Transition ID 182
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 183
+    duration: 0.01000011
+    offset: 0.48236308
+  - name: Transition ID 184
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 185
+    duration: 0.02563858
+    offset: 11.106449
+  - name: Transition ID 186
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 187
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 188
+    duration: 0.057251453
+    offset: 0.046951722
+  - name: Transition ID 189
+    duration: 0
+    offset: 0
+  - name: Transition ID 190
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 191
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 192
+    duration: 0.057251453
+    offset: 0.046951722
+  - name: Transition ID 193
+    duration: 0
+    offset: 0.0108753815
+  - name: Transition ID 194
+    duration: 0
+    offset: 0.0044698995
+  - name: Transition ID 195
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 196
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 197
+    duration: 0.057251453
+    offset: 0.046951722
+  - name: Transition ID 198
+    duration: 0
+    offset: 0.0108753815
+  - name: Transition ID 199
+    duration: 0
+    offset: 0.0044698995
+  - name: Transition ID 200
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 201
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 202
+    duration: 0.057251453
+    offset: 0.046951722
+  - name: Transition ID 203
+    duration: 0
+    offset: 0.0108753815
+  - name: Transition ID 204
+    duration: 0
+    offset: 0.0044698995
+  - name: Transition ID 205
+    duration: 0.0057195723
+    offset: 0
+  - name: Transition ID 206
+    duration: 0.01000011
+    offset: 0.48236308
+  - name: Transition ID 207
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 208
+    duration: 0.035284042
+    offset: 1.7039466
+  - name: Transition ID 209
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 210
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 211
+    duration: 0
+    offset: 0
+  - name: Transition ID 212
+    duration: 0.05000007
+    offset: 0
+  - name: Transition ID 213
+    duration: 0.049999952
+    offset: 0
+  - name: Transition ID 214
+    duration: 0.05000019
+    offset: 0
+  - name: Transition ID 215
+    duration: 0.023859978
+    offset: 1.5525419
+  maxTransitionNormalizedTimeDeviation: 0.3
+  maxStateNormalizedTimeDeviation: 0.3
+  nonSyncParatetres:
+  - ViewType
+  - IsRU
+  - LFoot
+  - EstLandTime
+  - DirAng
+  - UpSpeed
+  - UpSpeed
+  StateRemaper:
+  - WeaponName: KnifeDefault
+    Transitional: 0
+    SourceStateName: Hit2_KnifeDefault
+    TargetStateName: Hit1_KnifeDefault
+    SourceStateHash: 381531306
+    TargetStateHash: 1792840049
+  - WeaponName: M16
+    Transitional: 0
+    SourceStateName: AimingApproach_M16
+    TargetStateName: Shoot2_M16
+    SourceStateHash: -1945263817
+    TargetStateHash: -1950429209
+  - WeaponName: M16
+    Transitional: 0
+    SourceStateName: AimingIdle_M16
+    TargetStateName: Shoot2_M16
+    SourceStateHash: 1797764963
+    TargetStateHash: -1950429209
+  - WeaponName: M16
+    Transitional: 0
+    SourceStateName: AimingMoveAway_M16
+    TargetStateName: Shoot2_M16
+    SourceStateHash: -1995684371
+    TargetStateHash: -1950429209
+  - WeaponName: M16
+    Transitional: 0
+    SourceStateName: Shoot_M16
+    TargetStateName: Shoot2_M16
+    SourceStateHash: -1004697901
+    TargetStateHash: -1950429209
+  - WeaponName: AKR12
+    Transitional: 0
+    SourceStateName: AimingApproach_AKR12
+    TargetStateName: Shoot_AKR12
+    SourceStateHash: -265734769
+    TargetStateHash: 1865547292
+  - WeaponName: AKR12
+    Transitional: 0
+    SourceStateName: AimingIdle_AKR12
+    TargetStateName: Shoot_AKR12
+    SourceStateHash: -634716252
+    TargetStateHash: 1865547292
+  - WeaponName: AKR12
+    Transitional: 0
+    SourceStateName: AimingMoveAway_AKR12
+    TargetStateName: Shoot_AKR12
+    SourceStateHash: 748239738
+    TargetStateHash: 1865547292
+  BufferedFloatParams:
+  - LayerId: 1
+    Name: Recoil
+    Hash: 997579023
+  ExcludedStates:
+  - Name: Shoot_P90
+    NameHash: -245786163
+  - Name: Shoot_P90
+    NameHash: -245786163
+  - Name: Shoot_M4
+    NameHash: 63762278
+  - Name: Shoot_M4
+    NameHash: 63762278
+  - Name: Shoot_AKR
+    NameHash: 1376275338
+  - Name: Shoot_AKR
+    NameHash: 1376275338
+  - Name: Shoot_AKR12
+    NameHash: 1865547292
+  - Name: Shoot_AKR12
+    NameHash: 1865547292
+  - Name: Shoot_G22
+    NameHash: -439708449
+  - Name: Shoot_UMP45
+    NameHash: 1068311818
+  - Name: Shoot_P350
+    NameHash: 1629440294
+  animatorController: {fileID: 9100000, guid: f75d82d7ecdb63a4891001a50ff5818c, type: 2}
+  avatar: {fileID: 9000000, guid: 5572f73b59938704086497e5d239e4ad, type: 2}

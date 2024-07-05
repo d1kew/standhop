@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b0a4334ce81b648a4cd0f837c902c9, type: 3}
+  m_Name: TrainingOutside
+  m_EditorClassIdentifier:
+  _displayName: Training Outside
+  _previewImage: {fileID: 21300000, guid: 829f86dd43d97504bbdaf2616f7ad21c, type: 2}
+  _fullScreenImage: {fileID: 2800000, guid: f7e97e3e418936549bf8d09326237128, type: 3}
+  _schema:
+    _texture: {fileID: 2800000, guid: 40f74142359d4f340948c2b474b0148e, type: 3}
+    _cameraPosition: {x: -0.75, y: 0, z: 0}
+    _cameraSize: 32
+  _sceneName: TrainingOutside2_2years
+  _gameModes:
+    value:
+    - ArmsRace
+    - CaptureTheFlag
+    - DeathMatch
+    - Rampage
+  _ctArms: FBI
+  _ctCharacters:
+    character: FBI
+    skins:
+    - FBI
+  _trArms: Smugler
+  _trCharacters:
+    character: Smuggler
+    skins:
+    - SmugglerA
+    - SmugglerB

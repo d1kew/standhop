@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: tutorial_weapon_recharge_animation
+  m_Rect:
+    serializedVersion: 2
+    x: 247.07613
+    y: 0
+    width: 80.92388
+    height: 80.97325
+  m_Offset: {x: -0.03806417, y: 0.013373904}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.49952963, y: 0.50016516}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 515d9a067a196c645a039418b461c5e1, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 30
+      topology: 0
+      firstVertex: 0
+      vertexCount: 12
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0b000a000900080009000a00010009000800070001000800060001000700050001000600040001000500030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 12
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 240
+      _typelessdata: 295ccf3e6666663e000000000000000000000000b81ec53e295ccfbe000000000000000000000000295ccf3ef6289cbe00000000000000000000000048e17a3ed7a3b03e000000000000000000000000c3f5283eb81ec53e0000000000000000000000003d0ad73d295ccf3e0000000000000000000000005c8fc2bd295ccf3e000000000000000000000000c3f528be713dca3e00000000000000000000000014ae87be8fc2b53e0000000000000000000000008fc2b5be295ccfbe000000000000000000000000295ccfbe48e17a3e000000000000000000000000295ccfbe14ae47be000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 247.07613
+      y: 0
+      width: 80.92388
+      height: 80.97325
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 247, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 100, y: 287.5, z: 100, w: 40.5}
