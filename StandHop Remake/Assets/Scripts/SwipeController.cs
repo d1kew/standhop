@@ -12,7 +12,7 @@ public class SwipeController : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     {
         anim = Object.FindObjectOfType<ArmsAnimationController>();
     }
-
+    ## хуйня метод
     public void OnBeginDrag(PointerEventData eventData)
     {
         if((Mathf.Abs(eventData.delta.x)) > (Mathf.Abs(eventData.delta.y)))
